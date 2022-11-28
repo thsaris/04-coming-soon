@@ -10,7 +10,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: thsaris.github.io/04-coming-soon/
 
-Design: [Happy-Weekend](./designs/coming-soon.png)
+Design: [Coming-soon](./designs/coming-soon.png)
 
 _website design project_
 
@@ -21,7 +21,7 @@ _website design project_
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
 Site published at: thsaris.github.io/04-coming-soon/
-Design: [Happy-Weekend](./designs/coming-soon.png)
+Design: [Coming-soon](./designs/coming-soon.png)
 
 ## 🎯 Project features/goals
 
