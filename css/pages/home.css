@@ -12,7 +12,7 @@
 }
 
 .main-title {
-    font-size: 60px;
+    font-size: 75px;
     text-transform: uppercase;
 }
 
@@ -22,4 +22,10 @@
 
 .clock {
     width: 80%;
+}
+
+@media (max-width: 700px) {
+    .main-title {
+        font-size: 60px;
+    }
 }
