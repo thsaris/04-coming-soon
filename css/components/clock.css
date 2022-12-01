@@ -1,6 +1,6 @@
 .clock {
     display: flex;
-    gap: 20px;
+    gap: 40px 0;
     flex-wrap: wrap;
     width: 100%;
     color: #fff;
