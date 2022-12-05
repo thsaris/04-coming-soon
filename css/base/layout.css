@@ -4,6 +4,7 @@
 }
 
 .container > .row {
+    --w: 1000px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -13,7 +14,8 @@
 }
 
 .container > .short-row {
-    width: 600px;
+    --w: 600px;
+    width: var(--w);
     margin: 0 calc((100% - var(--w)) / 2);
 }
 
