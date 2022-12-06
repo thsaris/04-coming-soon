@@ -1,9 +1,11 @@
-.container > .hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    text-align: center;
+.container.hero {
+    min-height: 100vh;
+    background-color: red;
+    background-image: url(../../img/background.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .logo {
