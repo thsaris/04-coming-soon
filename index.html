@@ -17,7 +17,9 @@
     <link rel="stylesheet" href="./css/base/base.css">
     <link rel="stylesheet" href="./css/base/layout.css">
     <link rel="stylesheet" href="./css/3rd-party/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/components/button.css">
     <link rel="stylesheet" href="./css/components/clock.css">
+    <link rel="stylesheet" href="./css//components/form.css">
     <link rel="stylesheet" href="./css/components/mouse.css">
     <link rel="stylesheet" href="./css/components/progress-bar.css">
     <link rel="stylesheet" href="./css/pages/home.css">
@@ -88,6 +90,23 @@
             <div class="column right">
                 <h2 class="section-title">Have any question?</h2>
                 <p class="section-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat dicta officia perferendis facilis <a href="mailto:vardenis@pastenis.lt">vardenis@pastenis.lt</a>, quas error sit consectetur aliquid iusto. Laborum eveniet laboriosam veniam facere provident ipsum!</p>
+                <form action="/">
+                    <div class="cell-1">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" placeholder="Your name..." required>
+                    </div>
+                    <div class="cell-1">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="Your email..." required>
+                    </div>
+                    <div class="cell-2">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your message..." required></textarea>
+                    </div>
+                    <div class="cell-2">
+                        <button class="btn">Send message</button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
